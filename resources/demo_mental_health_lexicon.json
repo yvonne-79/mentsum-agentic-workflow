@@ -1,0 +1,74 @@
+[
+  {
+    "surface_forms": ["insomnia", "trouble sleeping", "sleep difficulty", "cannot sleep", "can't sleep", "barely slept", "not sleeping"],
+    "preferred_term": "sleep difficulty",
+    "cui": null,
+    "semantic_types": ["Sign or Symptom"]
+  },
+  {
+    "surface_forms": ["anxiety", "anxious", "constant worry", "worried all the time"],
+    "preferred_term": "anxiety symptom",
+    "cui": null,
+    "semantic_types": ["Mental or Behavioral Dysfunction"]
+  },
+  {
+    "surface_forms": ["panic attack", "panic attacks", "panicking"],
+    "preferred_term": "panic symptom",
+    "cui": null,
+    "semantic_types": ["Sign or Symptom"]
+  },
+  {
+    "surface_forms": ["depressed", "low mood", "feeling down", "feel empty", "feeling empty"],
+    "preferred_term": "depressed mood",
+    "cui": null,
+    "semantic_types": ["Sign or Symptom"]
+  },
+  {
+    "surface_forms": ["no interest", "lost interest", "nothing feels enjoyable"],
+    "preferred_term": "loss of interest",
+    "cui": null,
+    "semantic_types": ["Sign or Symptom"]
+  },
+  {
+    "surface_forms": ["cannot focus", "can't focus", "trouble concentrating", "difficulty concentrating"],
+    "preferred_term": "concentration difficulty",
+    "cui": null,
+    "semantic_types": ["Sign or Symptom"]
+  },
+  {
+    "surface_forms": ["exhausted", "fatigue", "no energy", "low energy"],
+    "preferred_term": "fatigue",
+    "cui": null,
+    "semantic_types": ["Sign or Symptom"]
+  },
+  {
+    "surface_forms": ["avoiding everyone", "isolating myself", "stopped seeing friends", "social withdrawal"],
+    "preferred_term": "social withdrawal",
+    "cui": null,
+    "semantic_types": ["Individual Behavior"]
+  },
+  {
+    "surface_forms": ["hopeless", "no hope", "things will never get better"],
+    "preferred_term": "hopelessness",
+    "cui": null,
+    "semantic_types": ["Mental Process"]
+  },
+  {
+    "surface_forms": ["intrusive thoughts", "unwanted thoughts"],
+    "preferred_term": "intrusive thought",
+    "cui": null,
+    "semantic_types": ["Mental Process"]
+  },
+  {
+    "surface_forms": ["self harm", "self-harm", "hurt myself"],
+    "preferred_term": "self-harm behavior or thought",
+    "cui": null,
+    "semantic_types": ["Injury or Poisoning"]
+  },
+  {
+    "surface_forms": ["suicidal", "suicidal thoughts", "want to die", "end my life"],
+    "preferred_term": "suicidal ideation",
+    "cui": null,
+    "semantic_types": ["Mental or Behavioral Dysfunction"]
+  }
+]

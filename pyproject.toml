@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mentsum-agentic-workflow"
+version = "0.1.0"
+description = "An agentic workflow for faithful and safety-sensitive mental-health post summarization."
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "langgraph>=0.2",
+    "openai>=1.0",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.2",
+    "tenacity>=8.2",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+quickumls = [
+    "quickumls>=1.4.2",
+]
+[project.scripts]
+mentsum-run-one = "mentsum_agent.run_one:main"
+mentsum-run-batch = "mentsum_agent.run_batch:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

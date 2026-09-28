@@ -1,0 +1,49 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments, caches, and build artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Editors and operating-system files
+.idea/
+.vscode/
+.DS_Store
+
+# Private datasets, generated outputs, and temporary files
+data/
+outputs/
+outputs_test/
+tmp/
+*.log
+
+# Local research and development material excluded from the public release
+docs/
+tests/
+scripts/
+preview.md
+resources/construct_tracker_safety_risk_cues_*.json
+resources/construct_tracker_safety_risk_cues_*.md
+resources/empty_lexicon.json
+src/mentsum_agent/evaluation/
+src/mentsum_agent/baselines/
+src/mentsum_agent/aggregate_faithfulness*.py
+src/mentsum_agent/aggregate_safety.py
+src/mentsum_agent/compare_safety_revisions.py
+src/mentsum_agent/run_faithfulness_evaluation*.py
+src/mentsum_agent/run_guidance.py
+src/mentsum_agent/run_revision.py
+src/mentsum_agent/run_safety_evaluation.py
+src/mentsum_agent/run_self_refine.py
+src/mentsum_agent/run_summarization.py
+src/mentsum_agent/run_verification_revision.py

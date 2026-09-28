@@ -1,0 +1,18 @@
+[
+  {
+    "category": "self_harm_or_suicide",
+    "surface_forms": ["suicidal", "suicide", "kill myself", "end my life", "want to die", "do not want to live", "don't want to live", "hurt myself", "self harm", "self-harm"]
+  },
+  {
+    "category": "harm_to_others",
+    "surface_forms": ["kill someone", "hurt someone", "harm someone", "hurt other people"]
+  },
+  {
+    "category": "reality_disturbance",
+    "surface_forms": ["hearing voices", "hear voices", "seeing things", "see things that are not there"]
+  },
+  {
+    "category": "immediate_danger_or_abuse",
+    "surface_forms": ["in immediate danger", "threatened me", "physically abused", "sexually abused", "domestic violence"]
+  }
+]
