@@ -110,3 +110,7 @@ pyproject.toml        Package metadata and dependencies
 - The included lexicons are demonstrations, not validated clinical resources.
 - Model output can be incomplete, incorrect, or unsafe and requires independent evaluation.
 - The synthetic examples are fictional and do not represent real people.
+
+## License
+
+This project is released under the [MIT License](LICENSE).
