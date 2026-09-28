@@ -1,11 +1,11 @@
 # MentSum Agentic Workflow
 
-MentSum is a research-oriented workflow for concise, source-grounded summarization of mental-health posts. It combines deterministic orchestration with four LLM-assisted stages:
+The framework uses four functional agents with distinct responsibilities, aiming to generate a concise summary that captures domain-relevant information while remaining faithful to the source and preserving the meaning of safety-sensitive content.
 
-1. extract mental-health guidance from the source;
-2. generate an initial summary;
-3. verify faithfulness and safety consistency; and
-4. revise locally when the verification result identifies an actionable issue.
+1. The Guidance Extraction Agent selects source-grounded, domain-aware sentences;
+2. The Guided Summarization Agent uses these sentences as guidance to generate a task-adapted initial summary;
+3. The Verification Agent then assesses the summary for faithfulness and safety consistency and identify actionable issues;
+4. the Revision Agent proposes targeted edits, and decides whether to accept the revision after re-verification.
 
 The workflow is intended for research and prototyping. It is not a clinical system, diagnostic tool, or substitute for professional judgment.
 
